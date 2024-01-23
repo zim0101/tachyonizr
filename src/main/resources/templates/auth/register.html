@@ -77,7 +77,7 @@
                                 th:field="*{lastName}"
                                 type="text"
                         />
-                        <p th:errors = "*{account.lastName}" class="text-danger"
+                        <p th:errors = "*{lastName}" class="text-danger"
                            th:if="${#fields.hasErrors('lastName')}"></p>
                     </div>
 
@@ -91,7 +91,7 @@
                                 th:field="*{email}"
                                 type="email"
                         />
-                        <p th:errors = "*{account.email}" class="text-danger"
+                        <p th:errors = "*{email}" class="text-danger"
                            th:if="${#fields.hasErrors('email')}"></p>
                     </div>
 
